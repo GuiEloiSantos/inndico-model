@@ -1,0 +1,16 @@
+{
+  "name": "chatsys-model",
+  "version": "1.0.4",
+  "description": "",
+  "main": "models.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.4.17",
+    "apikeygen": "^0.2.0"
+  }
+}
