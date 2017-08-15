@@ -31,7 +31,8 @@ user.static({
     /**
      * Get the user details by Auth0 Id
      *
-     * @param  {Object} id from the slash command
+     * @param  {String} id from the slash command
+     * @param  {String} api_key from the slash command
      * @return {Promise}
      */
     getToApi: function (id, api_key) {
