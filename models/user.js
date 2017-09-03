@@ -43,7 +43,8 @@ user.static({
     newUser: function (name, email) {
         var User = this.model('User');
         var user = new User();
-
+        console.log(name);
+        console.log(email);
         user.set({
             name: name,
             email: email,
